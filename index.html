@@ -7,12 +7,19 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <!-- Top navigation bar -->
-  <nav>
-    <a class="active" href="#">Home</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <!-- Navbar -->
+    <div class="top">
+      <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+        <a href="#home" class
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="#About" class="w3-bar-item w3-button">About</a>
+          <a href="#ChatGPT" class="w3-bar-item w3-button">ChatGPT</a>
+          <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+          <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+        </div>
+      </div>
+    </div>
 
   <!-- Header image and title area -->
   <header>
@@ -22,18 +29,27 @@
 
   <!-- Page content -->
   <main>
-    <section id="About" class="projects">
-      <h2>About</h2>
-      <div class="project"> 
-        <p>These are three projects I made testing the capabilities of ChatGpt an _______. In fact this Website
-          was made with the help of ChatGPT.
-        </p>
-      </div>
-    </section>
-    <section id="ChatGpt" class="projects">
-      <h2>What is ChatGpt?</h2>
-      <div class="project"> 
-        <p>ChatGPT is _________.</p>
+    <section id="projects" class="projects">
+      <h2>About Me</h2>
+      <div class="project-flex-container">
+        <div class="project">
+          <h3>My Backgroud</h3>
+          <img src="images/jmu_uni.jpg" alt="Project 1">
+          <p>I am a passionate programmer and problem solver always 
+            looking for opportunities to learn new skills and 
+            discover avenues to expand my knowledge in an 
+            innovative and ever changing technical field.</p>
+        </div>
+        <div class="project">
+          <h3>My Interests</h3>          
+          <img src="images/istockphoto-1334436084-612x612.jpg" alt="Project 2">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="project">
+          <h3>This Project</h3>
+          <img src="images/809a56ff-4b53-4165-99c4-96a8d8543e56.avif" alt="Project 3">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
       </div>
     </section>
     <!-- Projects -->
@@ -49,8 +65,8 @@
             to complete the task by and how long it will take</p>
         </div>
         <div class="project">
-          <h3>Project 2</h3>
-          <img src="images/markus-spiske-cvBBO4PzWPg-unsplash.jpg" alt="Project 2">
+          <a href="https://github.com/bq3573/Resume_Website"><h3>Resume Website</h3></a>
+          <img src="images/Screenshot 2023-01-04 165535.png" alt="Project 2">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div class="project">
