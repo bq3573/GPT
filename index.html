@@ -4,7 +4,7 @@
   <title>Portfolio Website</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <style>
         /* Add a dark background color to the top navigation */
@@ -73,66 +73,7 @@
       /* text-align: center; */
     }
 
-  .project-flex-container .project h3 {
-    text-align: center;
-  }
-  
 
-  /* Style the project flex container */
-  .project-flex-container {
-    display: flex;
-    /* flex-flow: row; */
-    flex-wrap:wrap;
-    justify-content: space-around;
-    /* align-items: stretch; */
-    /* align-items: flex-start; */
-    padding: 20px;
-  }
-  
-  /* Style the individual projects */
-  .project {
-    display: flex;
-    /* display: flexbox; */
-    flex-wrap: wrap;
-    flex: 0 0 31%;
-    background-color: #f2f2f2;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    margin-bottom: 20px;
-    text-align: center;
-    align-items: stretch;
-    justify-content: center;
-    border-radius: 10px;
-    
-    /* text-align-last: center; */
-    /* margin-left: 20px;
-    margin-right: 20px; */
-  
-  }
-  /* .project img {
-    max-width: 100%;
-    max-height: 200px;
-    object-fit:contain;
-  } */
-  
-  /* Add a hover effect for the projects */
-  .project:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,.5);
-  }
-  
-  /* Style the project images */
-  .project img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    padding: 5px;
-    object-fit: fill;
-  }
-  
-  /* Style the project text */
-  .project p {
-    padding: 20px;
-  }
   
 /* Style the contact section */
 .contact {
@@ -148,12 +89,7 @@
     font-size: 18px;
   }
 
-  /* @media (max-width: 600px) {
-  body {
-    font-size: 14px;
-  } */
-/* } */
-  
+
   /* Style the contact info */
   .contact p {
     margin: 0;
@@ -192,44 +128,44 @@
 
   <!-- Page content -->
   <main>
-    <section id="About" class="projects">
+    <section id="About" >
       <h2>About Me</h2>
-      <div class="project-flex-container">
-        <div class="project">
-          <h3>My Backgroud</h3>
-          <img src="images/jmu_uni.jpg" alt="Project 1">
-          <p>I am a recent graduate from James Madison University with a B.S. in Computer Science and a minor in History based out of the Northern Virginia area. During my time at JMU, I was an active member of the Alpha Kappa Psi Professional Business Fraternity and the JMU Club Wrestling team. These experiences have allowed me to develop a strong foundation in leadership, teamwork, and time management. I am excited to bring these skills to my next professional opportunity.</p>
+      <div class="container">
+        <div class="item">
+          <h3 class="item-header">My Backgroud</h3>
+          <img class="item-image" src="images/jmu_uni.jpg" alt="Project 1">
+          <p class="item-text">I am a recent graduate from James Madison University with a B.S. in Computer Science and a minor in History based out of the Northern Virginia area. During my time at JMU, I was an active member of the Alpha Kappa Psi Professional Business Fraternity and the JMU Club Wrestling team. These experiences have allowed me to develop a strong foundation in leadership, teamwork, and time management. I am excited to bring these skills to my next professional opportunity.</p>
         </div>
-        <div class="project">
-          <h3>My Interests</h3>          
-          <img src="images/istockphoto-1334436084-612x612.jpg" alt="Project 2">
-          <p>I am a passionate individual with a diverse range of interests. In my free time, I enjoy immersing myself in the world of video games and staying active by working out. I also have a love for travel and have had the opportunity to visit many different countries. In addition to these hobbies, I am also dedicated to working on side projects related to AI and web development. These projects allow me to combine my interests in technology and problem-solving to create innovative solutions.</p>
+        <div class="item">
+          <h3 class="item-header">My Interests</h3>          
+          <img class="item-image" src="images/istockphoto-1334436084-612x612.jpg" alt="Project 2">
+          <p class="item-text">I am a passionate individual with a diverse range of interests. In my free time, I enjoy immersing myself in the world of video games and staying active by working out. I also have a love for travel and have had the opportunity to visit many different countries. In addition to these hobbies, I am also dedicated to working on side projects related to AI and web development. These projects allow me to combine my interests in technology and problem-solving to create innovative solutions.</p>
         </div>
-        <div class="project">
-          <h3>This Project</h3>
-          <img src="images/809a56ff-4b53-4165-99c4-96a8d8543e56.avif" alt="Project 3">
-          <p>This portfolio web page and the subsequent listed projects were created to showcase my side projects and interest in learning about AI/ML. In order to assist me in the development of these projects, I utilized ChatGPT, a cutting-edge language model that helped me to generate and refine ideas for my projects. These projects demonstrate my passion for using AI/ML technologies to create innovative solutions and my commitment to constantly learning and improving my skills in this field.</p>
+        <div class="item">
+          <h3 class="item-header">This Project</h3>
+          <img class="item-image" src="images/809a56ff-4b53-4165-99c4-96a8d8543e56.avif" alt="Project 3">
+          <p class="item-text">This portfolio web page and the subsequent listed projects were created to showcase my side projects and interest in learning about AI/ML. In order to assist me in the development of these projects, I utilized ChatGPT, a cutting-edge language model that helped me to generate and refine ideas for my projects. These projects demonstrate my passion for using AI/ML technologies to create innovative solutions and my commitment to constantly learning and improving my skills in this field.</p>
         </div>
       </div>
     </section>
     <!-- Projects -->
     <section id="projects" class="projects">
       <h2>Projects</h2>
-      <div class="project-flex-container">
-        <div class="project">
-          <a href="https://github.com/bq3573/Task_Manager_GPT"><h3>Task Manager</h3></a>
-          <img src="images/Screenshot 2023-01-04 163626.png" alt="Project 1">
-          <p>This python application allows users to browse through some of my favorite solutions to assignments from an algorithms class. The user interface for the application is built using tkinter, a Python library for creating graphical user interfaces. The application presents the solutions in an organized and easy-to-read format, making it a useful resource for anyone interested in learning about algorithm design. In addition to providing the solutions, the application also includes a brief explanation of the problem and my thought process in arriving at the solution. This project is a great way for me to share my knowledge and experience with others, and I hope it will be a helpful resource for anyone interested in algorithms and problem-solving.</p>
+      <div class="container">
+        <div class="item">
+          <a href="https://github.com/bq3573/Task_Manager_GPT"><h3 class="item-header">Task Manager</h3></a>
+          <img class="item-image" src="images/Screenshot 2023-01-04 163626.png" alt="Project 1">
+          <p class="item-text">This python application allows users to browse through some of my favorite solutions to assignments from an algorithms class. The user interface for the application is built using tkinter, a Python library for creating graphical user interfaces. The application presents the solutions in an organized and easy-to-read format, making it a useful resource for anyone interested in learning about algorithm design. In addition to providing the solutions, the application also includes a brief explanation of the problem and my thought process in arriving at the solution. This project is a great way for me to share my knowledge and experience with others, and I hope it will be a helpful resource for anyone interested in algorithms and problem-solving.</p>
         </div>
-        <div class="project">
-          <a href="https://github.com/bq3573/Resume_Website"><h3>Resume Website</h3></a>
-          <img src="images/Screenshot 2023-01-04 165535.png" alt="Project 2">
-          <p>This resume website was designed to showcase my professional experience and skills to potential employers. With the help of ChatGPT, I was able to generate ideas and create a visually appealing layout for the site using HTML and CSS. The website is hosted in an AWS S3 bucket, ensuring reliable and secure access for visitors. The website highlights my relevant experience and skills, as well as providing links to my online profiles and projects. Overall, this resume website serves as an effective tool for demonstrating my abilities and attracting potential job opportunities.</p>
+        <div class="item">
+          <a href="https://github.com/bq3573/Resume_Website"><h3 class="item-header">Resume Website</h3></a>
+          <img class="item-image" src="images/Screenshot 2023-01-04 165535.png" alt="Project 2">
+          <p class="item-text">This resume website was designed to showcase my professional experience and skills to potential employers. With the help of ChatGPT, I was able to generate ideas and create a visually appealing layout for the site using HTML and CSS. The website is hosted in an AWS S3 bucket, ensuring reliable and secure access for visitors. The website highlights my relevant experience and skills, as well as providing links to my online profiles and projects. Overall, this resume website serves as an effective tool for demonstrating my abilities and attracting potential job opportunities.</p>
         </div>
-        <div class="project">
-          <h3>Video Game Ranker</h3>
-          <img src="images/markus-spiske-cvBBO4PzWPg-unsplash.jpg" alt="Project 3">
-          <p>I am currently working on an ASP.NET full stack website project that will allow users to rank and review the video games they have played. The website will also have a feature that allows users to add video games they want to play to a personal queue. This project utilizes a variety of technologies, including C#, HTML, CSS, and JavaScript. The website will have a responsive design and will be optimized for both desktop and mobile devices. The goal of this project is to create a comprehensive resource for users to share their thoughts on the video games they have played and discover new titles to try out. As a full stack developer, I am excited to work on all aspects of this project, from the back-end database design to the front-end user interface.</p>
+        <div class="item">
+          <h3 class="item-header">Video Game Ranker</h3>
+          <img class="item-image" src="images/markus-spiske-cvBBO4PzWPg-unsplash.jpg" alt="Project 3">
+          <p class="item-text">I am currently working on an ASP.NET full stack website project that will allow users to rank and review the video games they have played. The website will also have a feature that allows users to add video games they want to play to a personal queue. This project utilizes a variety of technologies, including C#, HTML, CSS, and JavaScript. The website will have a responsive design and will be optimized for both desktop and mobile devices. The goal of this project is to create a comprehensive resource for users to share their thoughts on the video games they have played and discover new titles to try out. As a full stack developer, I am excited to work on all aspects of this project, from the back-end database design to the front-end user interface.</p>
         </div>
       </div>
     </section>
@@ -237,10 +173,10 @@
     <!-- Contact -->
     <section id="contact" class="contact">
       <h3>Contact</h3>
-      <p>Email: brandonquinn@email.com</p>
-      <p>Phone: 555-555-1212</p>
-      <p>LinkedIn: <a href="#">linkedin.com/in/brandonquinn</a></p>
-      <p>GitHub: <a href="#">github.com/brandonquinn</a></p>
+      <p>Email: brandonquinnp@gmail.com</p>
+      <p>Phone: 703-408-9482</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/brandon-quinn-648742196/">linkedin.com/in/brandonquinn</a></p>
+      <p>GitHub: <a href="https://github.com/bq3573">github.com/brandonquinn</a></p>
     </section>
   </main>
 </body>
