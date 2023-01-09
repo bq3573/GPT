@@ -50,4 +50,5 @@
 .item-text {
   font-size: 14px; /* adjust as needed */
   /* overflow: scroll; */
+  align-items: flex-start;
 }
