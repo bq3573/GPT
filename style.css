@@ -76,6 +76,10 @@
     margin-bottom: 20px;
     text-align: center;
   }
+
+  /* .project h3 {
+    text-align: center;
+  } */
   
   /* Add a hover effect for the projects */
   .project:hover {
